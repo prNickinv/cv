@@ -18,6 +18,7 @@ jobs:
             git config --local user.name "Nikita Artamonov"
             git add --all
             git commit -m "Update CV"
+            git pull --rebase origin github-pages-deployment
             git push origin HEAD:github-pages-deployment
             git push origin HEAD:main
             mkdir to_pages
