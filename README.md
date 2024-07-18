@@ -6,5 +6,5 @@ by Nikita Artamonov, HSE University Computer Science & Data Analysis
 
 GitHub Actions and Pages build performed with [GitHub Pages](https://github.com/marketplace/actions/github-pages)
 
-![CV Build](https://github.com/prNickinv/prNickinv.github.io/actions/workflows/main.yml/badge.svg?event=push)
+![CV Build](https://github.com/prNickinv/cv/actions/workflows/main.yml/badge.svg?event=push)
 ![pages](https://github.com/prNickinv/cv/actions/workflows/pages/pages-build-deployment/badge.svg)
