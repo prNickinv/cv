@@ -20,6 +20,7 @@ jobs:
             git commit -m "Update CV"
             git pull --rebase origin github-pages-deployment
             git push origin HEAD:github-pages-deployment
+            git pull --rebase origin main
             git push origin HEAD:main
             mkdir to_pages
             mv ${{ github.workspace }}/cv/resume.pdf ${{ github.workspace }}/to_pages/resume.pdf
